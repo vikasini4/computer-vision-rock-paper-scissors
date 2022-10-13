@@ -17,6 +17,6 @@ Milestone 5
 
 Using the camera of the computer to play Rock Paper Scissors game.
 
-To enable the code to match the player's input to the trained model, a class list was created. ** It's essential to remember that the order of the categories on this list should correspond to the order in which they were entered into the Teachable Machine.
+To enable the code to match the player's input to the trained model, a class list was created. It's essential to remember that the order of the categories on this list should correspond to the order in which they were entered into the Teachable Machine.
 
 A function was developed to enable the code to decide which move the player is showing. Depending on how accurately the input from the camera matches the classes, the trained model outputs an array of four integers. The number chosen by the np.argmax(prediction[:0]) function has the highest chance of matching the player input. The player choice was then saved as a result of this decision. The user would be asked to choose again if the Nothing class was chosen.
