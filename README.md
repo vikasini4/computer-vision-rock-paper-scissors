@@ -13,6 +13,8 @@ Milestone 4
 
 Manual version of Rock Paper Scissors game.
 
+The prerequisite programs, including tensorflow, numpy, opencv(cv2), and time, were imported. A class called Rock, Paper, Scissors was made, and the following initialised attributes were used to track the game.
+
 A winning structure function def who wins() was created so the code can decide a winner for each round. The camera's output will then be integrated with this function so that a matched "string" is selected within the function based on the camera's output.
 
 Milestone 5
